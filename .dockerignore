@@ -14,6 +14,7 @@ tmp
 /db/**/*.sqlite3-journal
 /db/production
 /db/production-postgres
+/migrazione
 public/assets
 public/b
 coverage/
