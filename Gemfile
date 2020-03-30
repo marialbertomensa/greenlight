@@ -13,6 +13,7 @@ gem 'rails', '~> 5.2.3'
 # Use Puma as the app server
 gem 'puma', '~> 3.12'
 
+# Usiamo sqlite database anche in produzione.
 # use sqlite
 gem 'sqlite3', '~> 1.3.6'
 
@@ -99,7 +100,7 @@ group :development, :test do
   # Environment configuration.
   gem 'dotenv-rails'
   # Use a sqlite database in test and development.
-  gem 'sqlite3', '~> 1.3.6'
+#  gem 'sqlite3', '~> 1.3.6'
 end
 
 group :test do
