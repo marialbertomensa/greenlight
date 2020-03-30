@@ -14,7 +14,7 @@ gem 'rails', '~> 5.2.3'
 gem 'puma', '~> 3.12'
 
 # use sqlite
-gem 'sqlite3' 
+gem 'sqlite3', '~> 1.3.6'
 
 # Use SCSS for stylesheets
 gem 'sassc-rails'
